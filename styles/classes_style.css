@@ -1,5 +1,6 @@
 
 
+
 * {box-sizing: border-box; }
 
 body { font-family: 'Roboto', sans-serif;; 
@@ -9,6 +10,9 @@ body { font-family: 'Roboto', sans-serif;;
 
 
 	 }
+
+.description { 
+color: rgb(237,255,235);  }
 
 header { background-color: lightgray; 
          margin: 0; 
@@ -48,6 +52,7 @@ nav ul li { float: left;
            font-size: 1.3rem;
           }
 
+.hover:hover{color: rgb(237,255,235);}
 
 a { text-decoration: none;
 	color: #ff7d49;
@@ -107,10 +112,3 @@ display: table;
 .col-12 {width: 100%;}
 
 
-.aside_2{}
-
-.article_1 {}
-
-.article_2 {}
-
-footer{}
