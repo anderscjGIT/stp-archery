@@ -3,13 +3,12 @@
     background-color: gainsboro;
 }
 
-  
   header{
     float: left; 
     box-sizing: content-box;
     border: 0rem;
     padding: 0rem 0rem .5rem 0rem; 
-    width: 80% ; 
+    width: 100% ; 
     color: black;
     font-size:0.7rem;
     font: bold ;
@@ -52,14 +51,14 @@ ul.navbar{
       overflow: hidden;              /*  hidden:if it goes off page - hide */
       background-color: #663399;     /* = rebeccapurple  */
       font-family: Verdana, Helvetica, FreeSans, sans-serif ;
-      width: 80%;  /*set menu bar to extend horizontally across page  keep this to 80% */
+      width: 100%;  /*set menu bar to extend horizontally across page  keep this to 80% */
 }
     
     li.navbar { 
         color: white ;
         float: left;
         border-right: 3px solid gray ;  /* add a border vertical line to separate the list names */
-        width: 20% ;  /* not sure what is the best way - use width or padding? would like to find... */ 
+        width: 15% ;  /* not sure what is the best way - use width or padding? would like to find... */ 
                       /* ...a method to display across the entire width  */
 }
     
@@ -89,7 +88,7 @@ section {
       background-color: darkgray;  
       font-family: Lato, Helvetica, FreeSans, sans-serif ;
       font-size: 0.9rem;
-      width: 80%;  
+      width: 100%;
       /* min-height: 40rem;    set minimum height to match left navigation bar */
       margin: auto
 }
@@ -113,11 +112,11 @@ figure {
 footer {
       clear: both ;
       float: left;
-      width: 78.5%; 
+      width: 97%; /* because I added padding - apparently the width needs to be reduced? */
       background-color: slategrey;
       color: white;
       text-align: center;
-      padding: 0.8rem 0.5rem 0.8rem 0.5rem ; /* add more padding */
+      padding: 0.8rem 1rem ; /* add more padding */
       font-family: Asap, Helvetica, FreeSans, sans-serif ;      /* use google font Asap  - works great as citation */
       font-size: 0.7rem; 
 }
