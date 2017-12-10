@@ -47,7 +47,7 @@ h2 { background-color:rgb(59,88,127);
 	        text-align: center;
 	        margin-top: 20px ;
 	        font-size: 12px; 
-	        line-height: 3px; }
+	        line-height: normal; }
 
 nav { background-color: #663399;
       height: 44px;
