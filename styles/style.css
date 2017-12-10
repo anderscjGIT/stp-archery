@@ -1,0 +1,122 @@
+  body {
+    font-family: Verdana, Helvetica, FreeSans, sans-serif ;
+    background-color: gainsboro;
+}
+
+  header{
+    float: left; 
+    box-sizing: content-box;
+    border: 0rem;
+    padding: 0rem 0rem .5rem 0rem; 
+    width: 100% ; 
+    color: black;
+    font-size:0.7rem;
+    font: bold ;
+    text-align: center ;
+    background-color: darkgray;
+}
+
+section h2 {
+    color: #663399;   
+    font-size: 1.1rem;
+    padding: 1.0rem; 
+    font-family: Muli, Helvetica, FreeSans, sans-serif ;  /* use google font Muli */
+    text-align: center ;
+    font: bold ;
+}
+p.center {
+    font-size: 0.85rem;
+    font-family: Asap, Helvetica, FreeSans, sans-serif ;      /* use google font Asap  - works great as citation */
+    text-align: center ;
+    padding: 2rem 4rem 0.8rem 4rem;
+}
+p.narrow {
+    font-size: 1.0rem;
+    font-family: Lato, Helvetica, FreeSans, sans-serif ;  /* use google font Lato */
+    padding: .8rem 4rem 0rem 4rem;
+}
+p.indent {
+    font-size: 0.9rem;
+    font-family: Lato, Helvetica, FreeSans, sans-serif ;  /* use google font Lato */
+    padding: .8rem 0rem 0rem 4rem;
+}
+
+
+/* These CSS elements are used to create a horizontal menu bar to appear at the top in <nav>
+        Only apply this to class "nav"  - separate code for "leftbar"  */
+    /* First, remove the bullets and the margins and padding from the menu ul list */
+ul.navbar{
+      font-size: 0.8rem;
+      list-style-type: none;         /* removes the bullets */
+      overflow: hidden;              /*  hidden:if it goes off page - hide */
+      background-color: #663399;     /* = rebeccapurple  */
+      font-family: Verdana, Helvetica, FreeSans, sans-serif ;
+      width: 100%;  /*set menu bar to extend horizontally across page  keep this to 80% */
+}
+    
+    li.navbar { 
+        color: white ;
+        float: left;
+        border-right: 3px solid gray ;  /* add a border vertical line to separate the list names */
+        width: 15% ;  /* not sure what is the best way - use width or padding? would like to find... */ 
+                      /* ...a method to display across the entire width  */
+}
+    
+    li.navbar a {
+        display: block ;
+        color: white ; 
+        text-align: center ;
+        padding: 16px 10px;
+        text-decoration: none ; 
+        list-style-type: none ;
+}
+    /* Change the link color to green on hover if .active:  not instantiated */
+    li.navbar a:hover:not(.active) {
+      background-color: darkgreen; 
+}
+
+    /* Change color of active link to slategray to let users know which page they are on 
+      This is applied to both top menu bar and the left navigation bar */
+    .active {
+    background-color: slategray;
+}
+
+section {
+      clear:both; 
+      float: left; 
+      font-family: Muli, Helvetica, FreeSans, sans-serif ;
+      background-color: darkgray;  
+      font-family: Lato, Helvetica, FreeSans, sans-serif ;
+      font-size: 0.9rem;
+      width: 100%;
+      /* min-height: 40rem;    set minimum height to match left navigation bar */
+      margin: auto
+}
+
+figure {
+/* Center, size of the font */  
+      align-content: center;
+      margin: .5rem 0rem 0rem 2rem;
+      background-color: darkgray;  
+      text-align: center;  /* use this to put figure in the center */
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;     /* use google font Asap  - works great as citation */
+}
+
+  figcaption {
+      text-align: center;
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;      /* use google font Asap  - works great as citation */
+      font-size: 0.8rem; 
+      padding: 0rem 4rem 0.5rem 4rem;
+}
+
+footer {
+      clear: both ;
+      float: left;
+      width: 97%; /* because I added padding - apparently the width needs to be reduced? */
+      background-color: slategrey;
+      color: white;
+      text-align: center;
+      padding: 0.8rem 1rem ; /* add more padding */
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;      /* use google font Asap  - works great as citation */
+      font-size: 0.7rem; 
+}
