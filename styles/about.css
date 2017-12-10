@@ -1,0 +1,276 @@
+body {
+
+    font-family: Verdana, Helvetica, FreeSans, sans-serif;
+
+    background-color: gainsboro;    
+    
+    position: relative;
+    
+}
+  
+  header {
+      
+    position: static;
+      
+    float: left; 
+      
+    box-sizing: content-box;
+            
+    border: 5rem;
+      
+    padding: 2rem 0rem 1rem 0rem; 
+      
+    width: 79.7%; 
+      
+    color: black;
+      
+    font-size: 0.7rem;
+      
+    font: bold;
+      
+    text-align: center;
+      
+    background-color: darkgray;
+}
+    
+ul.navbar {
+    
+      font-size: 0.8rem;
+    
+      list-style-type: none;
+    
+      overflow: hidden; 
+    
+      background-color: #663399;  
+    
+      font-family: Verdana, Helvetica, FreeSans, sans-serif;
+    
+      width: 77.2%; 
+}
+    
+li.navbar { 
+        
+        color: white;
+        
+        float: left;
+        
+        border-right: 3px solid gray; 
+        
+        width: 20%;
+}
+    
+li.navbar a {
+        
+        display: block;
+    
+        color: white; 
+    
+        text-align: center;
+    
+        padding: 16px 10px;
+    
+        text-decoration: none; 
+    
+        list-style-type: none;
+}
+
+.active {
+        
+      background-color: slategray;
+}
+
+li.navbar a:hover:not(.active) {
+        
+      background-color: darkgreen; 
+}
+
+aside { 
+        
+    clear: both;
+    
+    float: left;
+             
+    height: 50.7rem;
+     
+    width: 12%;
+    
+    padding: 1rem 1rem 1rem 0rem;  
+      
+    color: white;
+     
+    background-color: darkgreen;  
+}   
+
+ul.navsidebar{
+    
+      list-style-type: none; 
+    
+      overflow: hidden; 
+    
+      font-family: Verdana, Helvetica, FreeSans, sans-serif;
+} 
+
+li.navsidebar { 
+        
+        margin: auto; 
+        
+        text-align: center;
+        
+        color: white;
+        
+        padding: 1rem 1rem 1rem 0rem;  
+} 
+    
+li.navsidebar a {
+        
+        color: white; 
+        
+        display: block;   
+        
+        font-size: 0.8rem;
+        
+        text-align: center;
+        
+        text-decoration: none; 
+        
+        list-style-type: none;   
+}
+
+li.navsidebar a:hover:not(.active) {
+        
+      background-color: #663399; 
+}
+
+section {
+    
+    clear: none;
+    
+    position: static;
+    
+    float: left;
+        
+    background-color: darkgray;
+    
+    font-family: Lato, Helvetica, FreeSans, sans-serif;
+    
+    font-size: 0.9rem;
+    
+    width: 62.6%;  
+    
+    height: 48.7rem;
+          
+    margin: auto;   
+          
+    color: #663399;   
+     
+    padding: 2rem;
+    
+    text-align: center;
+    
+}
+
+h1.center {
+    
+    color: #663399;  
+    
+    font-size: 1.1rem;
+    
+    padding: 1rem 0rem 0rem 0rem;  
+        
+    font-family: Muli, Helvetica, FreeSans, sans-serif; 
+    
+    text-align: center;
+    
+    font: bold;
+}
+
+p.center {
+        
+    font-size: 0.85rem;
+    
+    font-family: Muli, Helvetica, FreeSans, sans-serif; 
+    
+    text-align: center;
+        
+    padding: 1rem 0rem 0rem 0rem;  
+}
+
+p.indent {
+    
+    font-size: 0.9rem;
+    
+    font-family: Lato, Helvetica, FreeSans, sans-serif;
+    
+    text-align: center;
+    
+    padding: 0rem 0rem 0rem 33rem;  
+}
+
+.logo {
+    
+      position: inherit;
+
+      align-content: center;
+    
+      padding: 2rem 0rem 0rem 0rem;
+    
+      background-color: darkgray;  
+        
+      font-family: Asap, Helvetica, FreeSans, sans-serif;
+    
+}
+
+figure {
+     
+      float: left;
+    
+      position: inherit;
+        
+      padding: 4rem 2rem 2rem 25rem;  
+
+      background-color: darkgray;  
+}
+
+footer {
+    
+      float: left;
+    
+      width: 78.5%; 
+    
+      background-color: slategrey;
+    
+      color: white;
+    
+      text-align: center;
+    
+      padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+    
+      font-family: Verdana, Helvetica, FreeSans, sans-serif;
+    
+      font-size: 0.7rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
