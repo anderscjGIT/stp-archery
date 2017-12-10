@@ -3,10 +3,11 @@
 
 * {box-sizing: border-box; }
 
-body { font-family: 'Roboto', sans-serif;; 
+body { /*font-family: 'Roboto', sans-serif; */
+       font-family: Verdana, Helvetica, FreeSans, sans-serif ;
 	   margin: 0; 
 	   padding: 0;
-	   background-color: rgb(181,212,255);
+	   background-color: darkgray;
 
 
 	 }
@@ -14,20 +15,12 @@ body { font-family: 'Roboto', sans-serif;;
 .description { 
 color: rgb(237,255,235);  }
 
-header { background-color: lightgray; 
+header { background-color: darkgray; 
          margin: 0; 
-         height: 310px;
+         height: 177px;
+
           }
 
-h1 { 
-	text-align: center; 
-     font-size: 3rem;
-     font-family: 'Slabo 27px', serif;
-     float:left;
-     width: 600px;
-     margin-left: 250px; 
-
-     }
 
 
 
@@ -37,8 +30,8 @@ h2 { background-color:rgb(59,88,127);
       }
 
 .logo_image{float: left; 
-	         width:250px;
-	         height:250px;
+	         width:196px;
+	         height:117px;
 	         margin-left: 20px;
 	         margin-top: 20px;
 	     }
@@ -47,35 +40,51 @@ h2 { background-color:rgb(59,88,127);
 	        margin-left: 20px;} */
 
 .aside_1 { float: left;
+	       
 	       width: 400px; 
-	       height: 250px;
-	        margin-left: 20px;
-	        margin-top: 20px;
-}
-   
+	       height: 150px;
+           margin-left: 30rem;
+	        text-align: center;
+	        margin-top: 20px ;
+	        font-size: 12px; 
+	        line-height: 3px; }
 
-nav { background-color: rgb(59,88,127); 
-      height: 5rem;
-      padding-top: 30px;
+nav { background-color: #663399;
+      height: 44px;
+      
       }
 
 ul { list-style: none; 
 	margin: 0; 
+	height: 44px;
+
 
  }
 
 nav ul li { float: left;
-            margin: 0 1.75rem;
+            margin: 0;
            font-size: 1.3rem;
+           text-align: center;
+           width: 250px;
+           height: 44px;
+           border-left: 2px solid darkgrey;
+           border-right: 2px solid darkgrey;
+           padding-top: 5px;
+	       
+           
+          
           }
 
-.hover:hover{color: rgb(237,255,235);}
+.list:hover{background-color: darkgreen;}
+.hover:hover{color: slategrey;}
 
-a { text-decoration: none;
-	color: #ff7d49;
-	font-weight: 700; 
-	font-size: 1.3rem;
-
+a { box-sizing: inherit;
+	text-decoration: none;
+	color: white;
+	
+	font-size: .8rem;
+	font-family: Verdana, Helvetica, FreeSans, sans-serif;
+	
   }   
 
 
@@ -103,6 +112,9 @@ display: table;
 .aside_2 { width: 25%; float: left; }
 
 .article_1 .article_2 footer {width: 75%; float: left;}
+
+
+footer{ background-color: slategrey }
 
 
 
