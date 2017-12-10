@@ -45,6 +45,12 @@ h2 { background-color:rgb(59,88,127);
 	        line-height: normal; 
 	     }
 
+.aside_2 { width: 25%; 
+	       float: left; 
+	       height: 350px; }
+
+.aside_box1 { height: 115px; }
+
 nav { background-color: #663399;
       height: 44px;
       
@@ -94,7 +100,7 @@ display: table;
 	padding: 15px;
 }
 
-.aside_2 { width: 25%; float: left; }
+
 
 .article_1 .article_2 footer {width: 75%; float: left;}
 
