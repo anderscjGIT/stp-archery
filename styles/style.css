@@ -16,6 +16,13 @@
     background-color: darkgray;
 }
 
+.logo_image{float: left; 
+	         width:196px;
+	         height:117px;
+	         margin-left: 20px;
+	         margin-top: 20px;
+	       }
+
 section h2 {
     color: #663399;   
     font-size: 1.1rem;
