@@ -3,30 +3,55 @@ about this subject but still am not understanding why I can float my aside and s
 
 .inst_aside{
 
-  float: left;
-  clear: both;
-  /*border: solid 2px green;*/
-  min-height: 100vmax;
-  max-width: 20%;
+  
+  width: 10vw;
+  
 
- }
+  
+  }
+
+
 
 .inst_section {
-      clear:both; 
-      float:left; 
+    
+    
+    float:left;
+    
       font-family: Muli, Helvetica, FreeSans, sans-serif ;
       background-color: darkgray;
-      min-height:inherit
-      width: 40vmax;
+     /* min-height:inherit*/
+      width: 70vw;
       /* min-height: 40rem;    set minimum height to match left navigation bar */
-      margin: auto
+      margin:auto;
 }
-
 
 
 .inst_img{
   
   width: 25vw;
   float: left;
+  margin-right: 1vw;
+  
 }
 
+
+.inst_figure {
+/* Center, size of the font */  
+      clear: both;
+      float: left;
+      align-content: center;
+      margin: .5rem 0rem 0rem .5rem;
+      /*background-color: greenyellow;*/
+      text-align: center;  /* use this to put figure in the center */
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;     /* use google font Asap  - works great as citation */
+}
+
+  .inst_figcaption {
+      float: left;
+    clear: both;
+    display: block;
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;      /* use google font Asap  - works great as citation */
+      font-size: 0.8rem; 
+    
+      
+}
