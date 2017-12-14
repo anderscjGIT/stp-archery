@@ -17,12 +17,12 @@
     
     
     float:left;
-  /*clear: both;*/
+  clear: both;
     position:relative;
       font-family: Muli, Helvetica, FreeSans, sans-serif ;
       background-color: darkgray;
      /* min-height:inherit*/
-      width: 85%;
+      width: 75%;
       /* min-height: 40rem;    set minimum height to match left navigation bar */
       margin:auto;
 }
