@@ -1,11 +1,12 @@
-/*am still having trouble with my responsive designs and floats. Not sure what to do have emailed 
-about this subject but still am not understanding why I can float my aside and sections together. Please help*/
-
 .inst_aside{
 
-  
-  width: 10vw;
-  
+  float: left;
+  /*clear: both;*/
+  width: 10%;
+  height: 950px;
+  /*background-color: lime;*/
+  margin-right: 2vw;
+    
 
   
   }
@@ -16,11 +17,12 @@ about this subject but still am not understanding why I can float my aside and s
     
     
     float:left;
-    
+  /*clear: both;*/
+    position:relative;
       font-family: Muli, Helvetica, FreeSans, sans-serif ;
       background-color: darkgray;
      /* min-height:inherit*/
-      width: 70vw;
+      width: 85%;
       /* min-height: 40rem;    set minimum height to match left navigation bar */
       margin:auto;
 }
