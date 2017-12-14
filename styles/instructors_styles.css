@@ -1,32 +1,60 @@
-/*am still having trouble with my responsive designs and floats. Not sure what to do have 
-emailed about this subject but still am not understanding why I can float my aside and sections together. Please help*/
-
 .inst_aside{
 
   float: left;
-  clear: both;
-  /*border: solid 2px green;*/
-  min-height: 100vmax;
-  max-width: 20vmax;
+  /*clear: both;*/
+  width: 10%;
+  height: 950px;
+  background-color: #006400;
+  margin-right: 2vw;
+    
 
- }
+  
+  }
+
+
 
 .inst_section {
-      clear:both; 
-      float:left; 
+    
+    
+    float:left;
+  /*clear: both;*/
+    position:relative;
       font-family: Muli, Helvetica, FreeSans, sans-serif ;
       background-color: darkgray;
-      min-height:inherit
-      width: 40vmax;
+     /* min-height:inherit*/
+      width: 85%;
       /* min-height: 40rem;    set minimum height to match left navigation bar */
-      margin: auto
+      margin:auto;
 }
-
 
 
 .inst_img{
   
   width: 25vw;
   float: left;
+  margin-right: 1vw;
+  
+}
+
+
+.inst_figure {
+/* Center, size of the font */  
+      clear: both;
+      float: left;
+      align-content: center;
+      margin: .5rem 0rem 0rem .5rem;
+      /*background-color: greenyellow;*/
+      text-align: center;  /* use this to put figure in the center */
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;     /* use google font Asap  - works great as citation */
+}
+
+  .inst_figcaption {
+      float: left;
+    clear: both;
+    display: block;
+      font-family: Asap, Helvetica, FreeSans, sans-serif ;      /* use google font Asap  - works great as citation */
+      font-size: 0.8rem; 
+    
+      
 }
 
